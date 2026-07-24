@@ -3,3 +3,28 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
+#oldlady{
+    width: 240px;
+    height:auto;
+    float:left;
+    margin:0 20px 10px 0;
+    border-radius: 15px;
+}
+
+h1,h3{
+    text-align: center;
+}
+
+#anansi{
+    float:left;
+    width:220px;
+    margin:-10px 20px 10px 0;
+    border-radius:15px;
+}
+
+.gallery{
+
+}
+
+
+
