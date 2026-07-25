@@ -42,16 +42,22 @@ h1,h3,h2{
     margin:-10px 20px 10px 0;
     border-radius:15px;
 }
+fieldset{
+    width:25%;
+    box-sizing:border-box;
+}
 
 #akanform{
-    width:300px;
+    text-align: center;
+    width:90%;
+    max-width:400px;
     margin:30px auto;
     padding:20px;
-    text-align:center;
-    align-items: center;
+    display:flex;
+    flex-direction:column;
     justify-content: flex-end;
     width:fit-content;
-    box-shadow: 10px;
+    box-shadow:0 0 10px;
     border-radius: 0% 10px; 
 }
 
