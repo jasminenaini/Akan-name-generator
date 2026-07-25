@@ -33,21 +33,31 @@
     
     <section>
         <h2>Know Your Akan name!</h2>
+    
         <form id="akanform">
-        <fieldset>
+            <fieldset>
             <legend>Personal Details</legend>
-            <label for="birthdate">Date of birth</label><br><br>
-            <input type="date" id="birthdate"required><br><br>
-            <label for="">Your Gender</label><br>
-            <input type="radio" name="" ia="" >Male 
-            <input type="radio" name="" ia="">Female<br>
-            <button>Submit</button> <button>Reset</button>
-        </fieldset>
+            <label for="birthdate">Date of birth</label>
+            
+            <input type="date" id="birthdate"required>
+            <div class="gender-group">
+            <label>
+            <input type="radio" name="gender" value="Male"> 
+            </label>
+            <label>
+            <input type="radio" name="gender"  value="Female">
+            </label>
+            </div>
+            <div class=""buttons>
+            <button id="submit">Submit</button>
+             <button id="reset">Reset</button>
+            </div>
+            </fieldset>
         </form>
     </section>
 
     <section id="result">
-        <h3>Your Akan Name</h3>
+        <h5>Your Akan Name</h5>
         <p id="output"> </p>
     </section>
     <script src="./script.js"></script>
