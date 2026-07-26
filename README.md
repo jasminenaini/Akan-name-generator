@@ -12,3 +12,8 @@ Enter your date of birth
 Choose your gender
 Get your Akan name
 
+## Technology used
+HTML
+CSS
+Javascript
+
