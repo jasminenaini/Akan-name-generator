@@ -34,23 +34,25 @@
     <section>
         <h2>Know Your Akan name!</h2>
     
-        <form id="akanform">
+        <form id="akanform"
+        onsubmit="event.preventDefault();getAkanName();">
             <fieldset>
             <legend>Personal Details</legend>
             <label for="birthdate">Date of birth</label>
             
             <input type="date" id="birthdate"required>
+
             <div class="gender-group">
-            <label>
-            <input type="radio" name="gender" value="Male"> 
-            </label>
-            <label>
-            <input type="radio" name="gender"  value="Female">
-            </label>
+            
+            <input type="radio"  id="male"name="gender" value="Male"> 
+            <label for="male">Male</label>
+            
+            <input type="radio" id="female" name="gender"  value="Female">
+            <label for="female">Female</label>
             </div>
             <div class=""buttons>
-            <button id="submit">Submit</button>
-             <button id="reset">Reset</button>
+            <button type="submit" id="submit">Submit</button>
+             <button type="reset" id="reset">Reset</button>
             </div>
             </fieldset>
         </form>
