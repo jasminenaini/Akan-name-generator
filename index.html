@@ -3,68 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akan-name-generator</title>
+    <title>Akan Name Generator</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header>
-    <h1>The Akan of Ghana</h1>
-    <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#intro">Introduction</a>
-        <a href="#form">Know your akan name</a>
-    </nav>
 
+    <header id="home">
+        <h1>The Akan of Ghana</h1>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#intro">Introduction</a>
+            <a href="#form">Know Your Akan Name</a>
+        </nav>
     </header>
-    <section>
-        <h3>Introduction to the Akan</h3>
-        <img src="./images/akan3.png" alt="elderly woman" id="oldlady">
 
-        <img src="./images/akan-festival.png" alt="akanfestival" id="akanfest">
-        <img src="./images/kente.png" alt="kente" id="kente">
-    
+    <section id="intro">
+        <h2>Introduction to the Akan</h2>
 
-    <p>The Akan people are the largest ethno-linguistic people in Ghana ,comprising major subgroups such as the Ahsanti,Fante and Akuapem.
-        They are organized into eight major matrilineal clans, known as the abusua. 
-        Every Akan belongs to one of these clans, which dictate lineage, inheritance, and succession.
-         Members of the same clan consider each other blood relatives and cannot intermarry. 
-    </p>
+        <img src="./images/akan3.png" alt="Elderly Akan woman" id="oldlady">
+
+        <img src="./images/akan-festival.png" alt="Akan festival" id="akanfest">
+
+        <img src="./images/kente.png" alt="Kente cloth" id="kente">
+
+        <p>
+            The Akan people are the largest ethno-linguistic group in Ghana,
+            comprising major subgroups such as the Ashanti, Fante and Akuapem.
+            They are organized into eight major matrilineal clans, known as the
+            <em>abusua</em>. Every Akan belongs to one of these clans, which dictate
+            lineage, inheritance, and succession. Members of the same clan consider
+            each other blood relatives and cannot intermarry.
+        </p>
     </section>
-    
-    <section>
-        <h2>Know Your Akan name!</h2>
-    
-        <form id="akanform"
-        onsubmit="event.preventDefault();getAkanName();">
-            <fieldset>
-            <legend>Personal Details</legend>
-            <label for="birthdate">Date of birth</label>
-            
-            <input type="date" id="birthdate"required>
 
-            <div class="gender-group">
-            
-            <input type="radio"  id="male"name="gender" value="male"> 
-            <label for="male">Male</label>
-            
-            <input type="radio" id="female" name="gender"  value="female">
-            <label for="female">Female</label>
-            </div>
-            <div class=""buttons>
-            <button type="submit" id="submit">Submit</button>
-             <button type="reset" id="reset">Reset</button>
-            </div>
+    <section id="form">
+        <h2>Know Your Akan Name!</h2>
+
+        <p>
+            Enter your birth date and select your gender to discover your traditional Akan name.
+        </p>
+
+        <form id="akanform">
+
+            <fieldset>
+
+                <legend>Personal Details</legend>
+
+                <label for="birthdate">Date of Birth</label>
+
+                <input
+                    type="date"
+                    id="birthdate"
+                    required
+                >
+
+                <p>Select your gender:</p>
+
+                <div class="gender-group">
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="male"
+                        >
+                        Male
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="female"
+                        >
+                        Female
+                    </label>
+
+                </div>
+
+                <div class="buttons">
+
+                    <button type="submit" id="submit">
+                        Submit
+                    </button>
+
+                    <button type="reset" id="reset">
+                        Reset
+                    </button>
+
+                </div>
+
             </fieldset>
+
         </form>
+
     </section>
 
     <section id="result">
-        <h5>Your Akan Name</h5>
-        <p id="output"> </p>
+
+        <h2>Your Akan Name</h2>
+
+        <p id="output"></p>
+
     </section>
+
     <script src="./script.js"></script>
+
 </body>
 </html>
-
-
-        

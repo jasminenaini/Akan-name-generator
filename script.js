@@ -57,6 +57,7 @@ form.addEventListener("submit",function(event) {
      }
      if (month<1||month>12){
         alert("invalid month.");
+        return;
 
      }
 
@@ -66,7 +67,8 @@ form.addEventListener("submit",function(event) {
      } else {
         akanName=femaleNames[dayOfWeek];
      }
-     document.getElementById("output").textContent= `Your were born on... ${days[dayOfWeek]}.
+     document.getElementById("output").textContent=
+      `Your were born on ${days[dayOfWeek]}.
  Your Akan name is ${akanName}.`;
 })
  
