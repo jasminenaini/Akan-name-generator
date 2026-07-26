@@ -17,3 +17,14 @@ HTML
 CSS
 Javascript
 
+## Instructions
+Open the project in your browser
+Enter your date of birth
+Select your gender
+Click the submit button
+If you want to start afresh,you click the reset button
+Your Akan name will be displayed
+
+## License
+This project is for learning purposes.
+
