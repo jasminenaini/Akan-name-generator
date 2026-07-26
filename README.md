@@ -1,8 +1,8 @@
-# Akan Name Generator
+## Akan Name Generator
 That is the name of my project.
 
-# Author
+## Author
 Rachael Naini
 
-# Description
+## Description
 
