@@ -57,7 +57,7 @@ h1,h3,h2{
     justify-content: flex-end;
     box-shadow:0 4px 12px rgba(0,0,0,0.2);
     border-radius: 10px; 
-    background:white;
+    background:plum;
 }
 input,select{
     padding:10px;
