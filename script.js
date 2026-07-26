@@ -36,7 +36,7 @@ form.addEventListener("submit",function(event) {
     const birthdate=document.getElementById("birthdate").value ;
     const gender=document.querySelector('input[name="gender"]:checked');
     if (!birthdate) {
-        alert("Please select your birthdate and gender.");
+        alert("Please select your birthdate.");
         return;
     }
     if (!gender) {
@@ -53,13 +53,12 @@ form.addEventListener("submit",function(event) {
 
      if (day <1||day>31){
         alert("invalid day.")
+        return;
      }
      if (month<1||month>12){
         alert("invalid month.");
-     }
 
-     const CC=Math.floor(year/100);
-     const YY=year % 100;
+     }
 
      let akanName;
      if (gender.value==="male") {
@@ -67,7 +66,7 @@ form.addEventListener("submit",function(event) {
      } else {
         akanName=femaleNames[dayOfWeek];
      }
+     document.getElementById("output").textContent= `Your were born on... ${days[dayOfWeek]}.
+ Your Akan name is ${akanName}.`;
 })
  
-document.getElementById("result").textContent= `Your were born on ${days[dayOfWeek]}.
- Your Akan name is ${akanName}.`;
