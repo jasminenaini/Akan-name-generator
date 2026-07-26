@@ -27,6 +27,9 @@ This is a simple web application that helps people know their akan name based on
 5.If you want to start afresh,you click the reset button.
 6.Your Akan name will be displayed.
 
+## Contact information
+Please contact me via my official email at jasminenaini787@gmail.com
+
 ## License
 This project is for learning purposes.
 
