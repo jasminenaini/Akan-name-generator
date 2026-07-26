@@ -1,4 +1,4 @@
-## Akan Name Generator
+# Akan Name Generator
 That is the name of my project.
 
 ## Author
@@ -15,9 +15,9 @@ This is a simple web application that helps people know their akan name based on
 5.Get your Akan name.
 
 ## Technology used
-HTML
-CSS
-Javascript
+1.HTML
+2.CSS
+3.Javascript
 
 ## Instructions
 1.Open the project in your browser.
