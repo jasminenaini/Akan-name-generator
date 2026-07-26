@@ -45,7 +45,8 @@ form.addEventListener("submit",function(event) {
     }
      
 
-     const day = new Date(birthdate);
+     const date = new Date(birthdate);
+     
      const dayOfWeek= date.getDay();
      const month= date.getMonth() +1;
      const year= date.getFullYear();
@@ -68,4 +69,5 @@ form.addEventListener("submit",function(event) {
      }
 })
  
-document.getElementById("result").textContent= `Your were born on ${days[dayOfWeek]}. Your Akan name is ${akanName}.`;
+document.getElementById("result").textContent= `Your were born on ${days[dayOfWeek]}.
+ Your Akan name is ${akanName}.`;
