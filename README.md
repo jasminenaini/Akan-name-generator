@@ -8,9 +8,11 @@ Rachael Naini
 This is a simple web application that helps people know their akan name based on their gender and birthday.Akan names come from Ghanaian culture,where a person's name is determined by the day of the week they were born.
 
 ## Features
-Enter your date of birth
-Choose your gender
-Get your Akan name
+1.Introductory paragraph.
+2.Some Images.
+3.Enter your date of birth.
+4.Choose your gender.
+5.Get your Akan name.
 
 ## Technology used
 HTML
@@ -18,12 +20,12 @@ CSS
 Javascript
 
 ## Instructions
-Open the project in your browser
-Enter your date of birth
-Select your gender
-Click the submit button
-If you want to start afresh,you click the reset button
-Your Akan name will be displayed
+1.Open the project in your browser.
+2.Enter your date of birth.
+3.Select your gender.
+4.Click the submit button.
+5.If you want to start afresh,you click the reset button.
+6.Your Akan name will be displayed.
 
 ## License
 This project is for learning purposes.
