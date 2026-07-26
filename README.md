@@ -30,6 +30,9 @@ This is a simple web application that helps people know their akan name based on
 ## Contact information
 Please contact me via my official email at jasminenaini787@gmail.com
 
+## Areas to improve
+Set a limit to the years.
+
 ## License
 This project is for learning purposes.
 
